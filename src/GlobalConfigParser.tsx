@@ -23,7 +23,8 @@ import { PageTitle } from './utils/PageTitle';
 import { isCloudStorageEngine } from './storage/engines/utils';
 
 async function fetchGlobalConfigArray() {
-  const globalFile = await fetch(`${PREFIX}global.json`);
+  // const globalFile = await fetch(`${PREFIX}global.json`);
+  const globalFile = await fetch(`${PREFIX}mgc-global.json`);
   const configs = await globalFile.text();
   return parseGlobalConfig(configs);
 }
