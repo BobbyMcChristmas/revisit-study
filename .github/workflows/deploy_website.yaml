@@ -82,7 +82,7 @@ jobs:
       contents: write
       pull-requests: write
     concurrency:
-      group: ${{ github.workflow }}-${{ github.ref }}
+      group: ${{ github.workflow }}-pr-${{ github.event.pull_request.number }}
       cancel-in-progress: true
     if: ${{ github.event_name == 'pull_request_target' }}
 
