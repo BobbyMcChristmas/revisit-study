@@ -113,7 +113,7 @@ jobs:
         run: VITE_STORAGE_ENGINE=$VITE_STORAGE_ENGINE VITE_BASE_PATH=$VITE_BASE_PATH yarn build
         env:
           VITE_STORAGE_ENGINE: ${{ vars.VITE_STORAGE_ENGINE }}
-          VITE_BASE_PATH: "revisit-study/PR${{ github.event.pull_request.number }}/"
+          VITE_BASE_PATH: "/revisit-study/PR${{ github.event.pull_request.number }}/"
 
       - name: Push PR deploy preview
         uses: peaceiris/actions-gh-pages@v3
