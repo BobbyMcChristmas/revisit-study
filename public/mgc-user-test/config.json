@@ -44,8 +44,11 @@
       "response": [
         {
           "id": "consent-response",
-          "prompt": "Sign your name below after you have read and understood the above points:",
-          "type": "shortText"
+          "prompt": "Checking the box below will act as your digital signature:",
+          "type": "checkbox",
+          "options": [
+            "I have fully read and understood the above points" 
+          ]
         },
         {
           "id": "age-response",
