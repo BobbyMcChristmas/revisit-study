@@ -1,16 +1,16 @@
 {
   "$schema": "https://raw.githubusercontent.com/revisit-studies/study/v2.3.2/src/parser/StudyConfigSchema.json",
   "studyMetadata": {
-    "title": "Mapping Global China Website User Test",
+    "title": "Mapping Global China Website User Test (Task-Based)",
     "version": "pilot",
     "authors": ["MGC Team Croissant"],
     "date": "2026-02-01",
-    "description": "Last Updated: 2026-02-23",
+    "description": "Last Updated: 2026-03-03",
     "organizations": ["Mapping Global China", "WPI"]
   },
   "uiConfig": {
     "contactEmail": "contact@revisit.dev",
-    "helpTextPath": "mgc-user-test/assets/help.md",
+    "helpTextPath": "mgc-user-test-task/assets/help.md",
     "logoPath": "revisitAssets/revisitLogoSquare.svg",
     "withProgressBar": true,
     "autoDownloadStudy": false,
@@ -19,7 +19,7 @@
     "recordAudio": true,
     "recordScreen": true,
     "recordScreenFPS": 30,
-    "studyEndMsg": "Thank you for completing the study!\n\nHere is a link to our study if you would like to redo the study or share it with a peer:\n\nhttps://mapping-global-china.github.io/revisit-study/mgc-user-test/\n\nYou may now close the page."
+    "studyEndMsg": "Thank you for completing the study!\n\nHere is a link to our study if you would like to redo the study or share it with a peer:\n\nhttps://mapping-global-china.github.io/revisit-study/PR2/\n\nYou may now close the page."
   },
   "importedLibraries": [
     "screen-recording"
@@ -27,20 +27,20 @@
   "components": {
     "introduction-mgc": {
       "type": "markdown",
-      "path": "mgc-user-test/assets/introduction-mgc.md",
+      "path": "mgc-user-test-task/assets/introduction-mgc.md",
       "response": [],
       "style": {"maxWidth": "125ch"}
     },
     "introduction-study": {
       "type": "markdown",
-      "path": "mgc-user-test/assets/introduction-study.md",
+      "path": "mgc-user-test-task/assets/introduction-study.md",
       "response": [],
       "previousButton": true,
       "style": {"maxWidth": "125ch"}
     },
     "consent": {
       "type": "markdown",
-      "path": "mgc-user-test/assets/consent.md",
+      "path": "mgc-user-test-task/assets/consent.md",
       "response": [
         {
           "id": "consent-response",
@@ -64,7 +64,7 @@
     },
     "demographics": {
       "type": "markdown",
-      "path": "mgc-user-test/assets/demographics.md",
+      "path": "mgc-user-test-task/assets/demographics.md",
       "response": [
         {
           "id": "professional-response",
@@ -139,7 +139,7 @@
     },
     "training": {
       "type": "markdown",
-      "path": "mgc-user-test/assets/training.md",
+      "path": "mgc-user-test-task/assets/training.md",
       "response": [
         {
           "id": "training-response",
@@ -155,7 +155,7 @@
     },
     "task1-navigation": {
       "type": "website",
-      "instruction": "Navigate to the Master Map",
+      "instruction": "Navigate to the Infrastructure Map",
       "instructionLocation": "aboveStimulus",
       "path": "https://mapglobalchina.com/",
       "response": [],
@@ -213,7 +213,7 @@
     },
     "sharing": {
       "type": "markdown",
-      "path": "mgc-user-test/assets/sharing.md",
+      "path": "mgc-user-test-task/assets/sharing.md",
       "response": [
         {
           "id": "sharing-response",
@@ -229,7 +229,7 @@
     },
     "feedback": {
       "type": "markdown",
-      "path": "mgc-user-test/assets/feedback.md",
+      "path": "mgc-user-test-task/assets/feedback.md",
       "response": [
         {
           "id": "questions-response",
