@@ -3,9 +3,9 @@
 Before we begin the study, please read the following consent form carefully and complete the section below. 
 
 + **Goal:** In this study, we examine how users interact with different pages and functionalities of the Mapping Global China website.
-- **Procedure:** The experiment consists of navigation and understanding tasks. Each task is associated with a feature of the Mapping Global China website, and you will be required to respond to a task, based on think-aloud study protocols:
+- **Procedure:** This expirement is open-ended, based on think-aloud study protocols. You will be asked to navigate and test the functionalities of the Mapping Global China website.
 * **Benefit:** You will learn how to utilize the Mapping Global China website and help the Mapping Global China team refine website functionalities based on your user experience.
-+ **Duration:** The estimated time for the experiment is 20 minutes. 
++ **Duration:** The estimated time for the experiment is 10-20 minutes. 
 - **Privacy:** Your participation is anonymous, and your responses cannot be used to identify you. 
 * **Record Keeping:** Records of your participation will be held confidential so far as permitted by law. However, the study investigators and, under certain circumstances, the Institutional Review Board will be able to inspect and have access to this data. Any publication or presentation of the data will not identify you. 
 
